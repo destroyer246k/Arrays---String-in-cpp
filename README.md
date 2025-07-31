@@ -10,12 +10,10 @@ An array in C++ is a collection of elements of the same data type stored in cont
 - Access elements using index notation (`arr[i]`).
 - Stored in continuous memory blocks.
 
----
 
-## Algorithms
 
 ### 1. Array Input and Output 
-
+This program reads multiple integer values from the user and stores them in an array. It then displays the array elements using a loop.      
 **Algorithm:**
 1. Start.
 2. Read the number of elements n.
@@ -26,6 +24,7 @@ An array in C++ is a collection of elements of the same data type stored in cont
 
 ### 2. Search an Element in Array 
 **Algorithm:**
+The program searches for a specific element in an array and prints its positions and count. It uses a loop and conditional check to compare each value.
 1. Start.
 2. Read the number of elements n.
 3. Declare array marks[n] and input values.
@@ -37,7 +36,7 @@ An array in C++ is a collection of elements of the same data type stored in cont
 8. Stop.
 
 ### 3. Reverse an Array 
-
+This program takes user input for an array and prints the elements in reverse order by looping from the end of the array to the beginning.
 **Algorithm:**
 1. Start.
 2. Read the number of elements n.
@@ -47,7 +46,7 @@ An array in C++ is a collection of elements of the same data type stored in cont
 6. Stop.
 
 ### 4. Sum and Average of Array 
-
+This program calculates the total sum and average of elements stored in an array using a simple accumulation loop.
 **Algorithm:**
 1. Start.
 2. Read number of elements n.
@@ -59,6 +58,7 @@ An array in C++ is a collection of elements of the same data type stored in cont
 8. Stop.
 
 ### 5. Minimum and Maximum in Array 
+It finds and displays the smallest and largest values in an array by iterating through all elements and updating min and max variables.
 **Algorithm:**
 1. Start.
 2. Read number of elements n.
@@ -70,50 +70,32 @@ An array in C++ is a collection of elements of the same data type stored in cont
 8. Stop.
 
 # Strings in C++
-
 In C++, strings are used to store and manipulate sequences of characters. They can be declared and used in two main ways:
-
 1. **Character Arrays (C-style strings)** – These are arrays of characters that end with a null character `\0`. They provide low-level access and require manual handling of size and termination.
-
 2. **C++ string Class (Standard Library)** – The string class is a part of the C++ Standard Library and offers flexible, dynamic, and user-friendly string handling with built-in functions for common operations.
 
 ### Common Features:
 - Strings support operations like concatenation, comparison, input/output, and substring extraction.
 - Character arrays are static in size, while string objects are dynamic.
-## Ways to Declare Strings in C++
 
+## Ways to Declare Strings in C++
 1. Using character arrays with string literals.
 2. Using character arrays with indivdual characters and a null terminator.
 3. Using character arrays without specifying size.
 4. Using string objects from the C++ Standard Library.
 
-## Algorithms
+### 1. String Declaration Types  
+This program demonstrates four ways to declare strings in C++, including character arrays with string literals and character lists, and standard string class usage. It helps visualize how strings are stored and displayed in both C-style and modern C++ approaches. This comparison aids understanding of null terminators, fixed sizes, and flexibility of string.
 
-### 1. String Declaration 
-**Algorithm:**
-1. Start.
-2. Declare multiple strings using both character arrays and string class.
-3. Output all declared strings.
-4. Stop.
+### 2. String Input and Output  
+This program takes two string inputs using character arrays and displays them. It shows how C-style strings behave during input, especially how cin stops at spaces. This highlights limitations of character array.
 
-### 2. Input and Output of Strings 
-**Algorithm:**
-1. Start.
-2. Declare two character arrays.
-3. Take input for both strings using standard input.
-4. Display the entered strings using standard output.
-5. Stop.
+### 3. String Concatenation  
+This program collects first name, last name, college, and course using string variables. It concatenates the names to form a full name using the + operator and prints all values. It demonstrates how simple and intuitive it is to handle strings using the standard string class compared to character arrays.
 
-### 3. String Concatenation
-**Algorithm:**
-1. Start.
-2. Declare strings for first name, last name, college, and course.
-3. Take input for all strings.
-4. Concatenate first name and last name into a full name.
-5. Display full name, college name, and course name.
-6. Stop.
 
-### 4. Reverse a String 
+### 4. Reverse a String
+It reverses the entered string by iterating from the last character to the first and builds a new reversed string.
 **Algorithm:**
 1. Start.
 2. Declare two string variables: original and reversed.
@@ -125,6 +107,7 @@ In C++, strings are used to store and manipulate sequences of characters. They c
 
 ### 5. Check Palindrome 
 **Algorithm:**
+This program checks whether a given string reads the same forwards and backwards. It prints whether the string is a palindrome or not.
 1. Start.
 2. Declare a string and take input.
 3. Compare characters from both ends moving toward the center.
