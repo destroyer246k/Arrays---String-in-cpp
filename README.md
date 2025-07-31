@@ -1,8 +1,6 @@
 # Arrays-String-in-cpp
-Aim: To study and implement C++ arrays and strings.
+Aim: To study and implement C++ arrays and strings.                                 
 Tools: GNU g++ compiler (for local execution)Any code editor or an Online C++ Compiler).
-# Arrays in C++
-
 ## Theory
 
 An array in C++ is a collection of elements of the same data type stored in contiguous memory locations. It allows indexed access using zero-based indexing. Arrays are useful for storing multiple values of the same type and performing operations like  searching, sorting, etc.
