@@ -13,14 +13,8 @@ An array in C++ is a collection of elements of the same data type stored in cont
 
 
 ### 1. Array Input and Output 
-This program reads multiple integer values from the user and stores them in an array. It then displays the array elements using a loop.      
-**Algorithm:**
-1. Start.
-2. Read the number of elements n.
-3. Declare an array marks of size n.
-4. Input n elements from the user into marks.
-5. Traverse the array and print each element.
-6. Stop.
+This program demonstrates how to declare an array and accept user input to store multiple elements. It uses a loop to read values and another loop to display all elements. It introduces basic array traversal using for loops and emphasizes how arrays store values in indexed order.      
+
 
 ### 2. Search an Element in Array 
 **Algorithm:**
@@ -36,26 +30,12 @@ The program searches for a specific element in an array and prints its positions
 8. Stop.
 
 ### 3. Reverse an Array 
-This program takes user input for an array and prints the elements in reverse order by looping from the end of the array to the beginning.
-**Algorithm:**
-1. Start.
-2. Read the number of elements n.
-3. Declare and input array marks[n].
-4. Print original array.
-5. Loop from index n-1 to 0 and print elements in reverse.
-6. Stop.
+The program accepts an array of integers from the user and then prints the elements in reverse order. It uses a loop that starts from the last index and moves backward. This example shows how array indices can be manipulated to reverse the sequence without modifying the original data.
+
 
 ### 4. Sum and Average of Array 
-This program calculates the total sum and average of elements stored in an array using a simple accumulation loop.
-**Algorithm:**
-1. Start.
-2. Read number of elements n.
-3. Declare array marks[n] and input values.
-4. Initialize Sum = 0.
-5. Loop through the array and add each element to  Sum.
-6. Compute Average = Sum / n.
-7. Print sum and average.
-8. Stop.
+This program calculates the total sum and average of values stored in an array. After reading the elements, it accumulates the sum in a variable and divides it by the number of elements to find the average. It illustrates arithmetic operations on arrays and how to process numerical data efficiently.
+
 
 ### 5. Minimum and Maximum in Array 
 It finds and displays the smallest and largest values in an array by iterating through all elements and updating min and max variables.
